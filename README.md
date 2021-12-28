@@ -6,4 +6,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-Projeto Feito com ajuda do curso da Alura em React(Entendendo como a biblioteca funciona)
+Project Made with the help of Alura's course in React (Understanding how the library works)
