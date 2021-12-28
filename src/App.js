@@ -1,25 +1,17 @@
-import React from 'react';
+import React from "react";
+import { Component } from "react/cjs/react.production.min";
+import FormularioCadastro from "./components/FormularioCadastro";
+import ListaDeNotas from "./components/ListaDeNotas";
 
-function App() {
-  return (
-    <section>
-      <form>  
-        <input type="text" placeholder="Título"></input>
-        <textarea placeholder="Escreva sua nota...."></textarea>
-        <button>Criar Nota</button>
-      </form>
-      <ul>
-        <li>
-          <section>
-            <header>
-              <h3>Título</h3>
-            </header>
-            <p>Escreva sua nota</p>
-          </section>
-        </li>
-      </ul>
-    </section>
-  );
+class App extends Component {
+  render() {
+    return (
+      <section>
+        <FormularioCadastro />
+        <ListaDeNotas />
+      </section>
+    );
+  }
 }
 
 export default App;
